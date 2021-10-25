@@ -1,0 +1,19 @@
+.odd-class {
+    background-color: pink;
+    font-family: Verdana, sans-serif;
+}
+
+#second-point {
+    color: blue;
+    font-style: 36px;
+}
+
+.cool {
+    font-size: 24px;
+}
+
+#fourth-point {
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+}
