@@ -10,9 +10,11 @@ body {
 }
 
 ul {
+  display: flex;
   list-style: none;
-  display: inline-flex;
-  gap: 8px;
+  margin: 0;
+  padding: 0;
+  gap: 16px
 }
 
 img {
@@ -26,8 +28,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
-  align-items: center;
-  justify-content: center;
+  padding: 8px 16px;
 }
 
 input {
@@ -41,9 +42,28 @@ input {
   align-content: center;
 }
 
+.content {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+a {
+  color: #666;
+  text-decoration: none;
+}
+
+.header,
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+}
+
 .footer {
   background-color: #eeeeee;
-  display: flex;
 }
 
 .left, .right {
